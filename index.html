@@ -21,16 +21,17 @@
                     <label for="iemail">
                         <span class="material-icons">person</span>
                     </label>
-                    <input type="text" name="user" id="iemail" autocomplete="email" class="input" placeholder="Seu e-mail">
+                    <input type="text" name="user" id="iemail" autocomplete="email" class="input" placeholder="Seu e-mail" required>
                 </div>
                 <div class="data-field">
                     <label for="ipassword">
                         <span class="material-icons">vpn_key</span>
                     </label>
-                    <input type="password" name="password" id="ipassword" autocomplete="off" class="input" placeholder="Sua senha">
+                    <input type="password" name="password" id="ipassword" autocomplete="off" class="input" placeholder="Sua senha" required minlength="8">
                 </div>
-                <button type="submit" class="btn">Entrar</button>
-                <button type="submit" class="btn">Esqueci a senha 
+                <input type="submit" class="btn" id="enter-btn" value="Entrar">
+                <button type="submit" class="btn" id="forgot-btn">
+                    Esqueci a senha
                     <span class="material-icons">email</span>
                 </button>
             </form>

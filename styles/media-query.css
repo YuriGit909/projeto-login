@@ -2,3 +2,12 @@
 
 /* Estilo para múltiplas telas */
 
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/* Desktops em diante */
+@media screen and (min-width: 992px) {
+
+}
