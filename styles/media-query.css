@@ -4,10 +4,66 @@
 
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #5F2C82, #4C949A);
+    }
 
+    main {
+        width: 90vw;
+    }
+
+    div#image-field {
+        float: left;
+        width: 30%;
+        height: 326px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    main > section {
+        width: 70%;
+        float: right;
+        border-radius: 0 20px 20px 0;
+    }
+
+    section > h1 {
+        font-size: 28px;
+    }
+
+    section > p {
+        font-size: 14px;
+    }
 }
 
 /* Desktops em diante */
 @media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #5F2C82, #4C949A);
+    }
+    
+    main {
+        width: 80vw;
+        height: 350px;
+    }
 
+    main > div#image-field {
+        float: right;
+        width: 40%;
+        height: 100%;
+        border-radius: 0 20px 20px 0;
+    }
+
+    main > section {
+        float: left;
+        width: 60%;
+        height: 100%;
+        border-radius: 20px 0 0 20px;
+    }
+
+    section > h1 {
+        font-size: 32px;
+    }
+
+    section > p {
+        font-size: 16px;
+    }
 }
