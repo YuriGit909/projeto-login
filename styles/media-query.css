@@ -9,18 +9,20 @@
     }
 
     main {
-        width: 90vw;
+        width: 80vw;
     }
 
     div#image-field {
         float: left;
         width: 30%;
-        height: 326px;
+        height: 330px;
+        background-size: cover;
         border-radius: 20px 0 0 20px;
     }
 
     main > section {
         width: 70%;
+        height: 330px;
         float: right;
         border-radius: 0 20px 20px 0;
     }
